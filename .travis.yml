@@ -7,5 +7,4 @@ before_install:
   - pip install -r requirements.txt
 
 script:
-  - pylint_runner
   - pytest --cov=com.faculdadeimpacta com/faculdadeimpacta/calculadora/test
